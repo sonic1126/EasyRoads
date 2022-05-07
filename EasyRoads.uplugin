@@ -2,9 +2,10 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "0.1.0",
+	"SemVersion": "0.1.0",
 	"FriendlyName": "EasyRoads",
 	"Description": "AllowCurved Roads",
-	"Category": "Other",
+	"Category": "Modding",
 	"CreatedBy": "Sonic1126",
 	"CreatedByURL": "",
 	"DocsURL": "",
@@ -13,5 +14,17 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "ContentLib",
+			"Enabled": "True",
+			"SemVersion": ">=0.2.0"
+		},
+		{
+			"Name": "SML",
+			"Enabled": "True",
+			"SemVersion": "^3.3.0"
+		}
+	]
 }
